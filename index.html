@@ -1,0 +1,249 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Recuperação Final UC6 | Biblioteca do Bairro</title><style>
+:root{--blue:#103b64;--blue2:#166ca2;--orange:#f29131;--bg:#f3f6fa;--muted:#63758a;--border:#dce4ed;--green:#18845b}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#1b2c3f;background:var(--bg)}header{background:linear-gradient(110deg,#0b3156,#175c8e);color:white;padding:28px max(24px,calc((100vw - 1080px)/2))}header small{letter-spacing:.12em;text-transform:uppercase;color:#d3e6f5}h1{font-size:clamp(24px,3vw,34px);margin:8px 0 6px}header p{margin:0;color:#e0ebf6}.wrap{max-width:1080px;margin:26px auto;padding:0 18px}.card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:25px;margin-bottom:20px;box-shadow:0 4px 20px #102c4a0b}h2{font-size:21px;margin:0 0 15px}h3{margin:18px 0 10px}p{line-height:1.55}.muted{color:var(--muted)}label{font-weight:650;display:block;margin:14px 0 7px}input,select,textarea{width:100%;padding:12px;border:1px solid #bac9d8;border-radius:9px;font:inherit;background:white;color:#1b2c3f}textarea{min-height:120px;resize:vertical;font-family:Consolas,monospace;font-size:14px}input:focus,select:focus,textarea:focus{outline:2px solid #8bbde5}button{background:var(--blue2);color:white;border:0;border-radius:9px;padding:11px 17px;font:inherit;font-weight:650;cursor:pointer}button:hover{filter:brightness(.94)}button.secondary{background:#e8eff6;color:var(--blue)}button.danger{background:#aa3442}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.hidden{display:none!important}.notice{padding:12px 15px;background:#eff6fd;border-left:4px solid var(--blue2);border-radius:7px;margin:14px 0}.warning{background:#fff6e9;border-color:#e8a13c}.chip{display:inline-block;background:#e8f2fb;color:#15578c;border-radius:20px;padding:5px 10px;font-size:13px;margin:3px}.progress{height:9px;background:#e8edf2;border-radius:20px;overflow:hidden}.progress>div{background:var(--orange);height:100%;transition:width .2s}.question{border:1px solid var(--border);border-radius:12px;padding:19px;margin:16px 0}.question .kicker{font-size:12px;text-transform:uppercase;color:var(--blue2);font-weight:750;letter-spacing:.06em}.option{display:flex;align-items:flex-start;gap:9px;padding:10px 5px;font-weight:400;margin:0;cursor:pointer}.option input{width:auto;margin:3px 0}.admin-table{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:9px;border-bottom:1px solid var(--border);text-align:left}th{background:#eff4f8}td select{min-width:76px;padding:7px}footer{text-align:center;color:var(--muted);font-size:13px;margin:40px 0}.pill{display:inline-block;background:#e8f7ee;color:#126743;border-radius:20px;padding:4px 9px;font-size:12px}.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}.mini{font-size:13px}.hideprint{}@media(max-width:700px){.row{grid-template-columns:1fr}.card{padding:17px}header{padding:24px 18px}}@media print{header,.hideprint,footer{display:none!important}body{background:white}.card{border:0;box-shadow:none;padding:0}.wrap{margin:0;max-width:none}.question{break-inside:avoid}textarea{min-height:90px}button{display:none!important}}
+</style>
+<style>
+:root{--blue:#0d3457;--blue2:#176d9e;--orange:#ed8d34;--bg:#f4f7fb;--muted:#5f7185;--border:#dce5ed;--green:#15855f}
+body{background:radial-gradient(circle at 92% 5%,#e7f2fc 0,transparent 29%),var(--bg);font-size:15px}
+header{position:relative;overflow:hidden;padding-top:42px;padding-bottom:45px;background:linear-gradient(125deg,#092f52 5%,#155b85 80%);border-bottom:5px solid var(--orange)}
+header:after{content:"";position:absolute;width:320px;height:320px;border:55px solid #ffffff0a;border-radius:50%;right:-110px;top:-160px;pointer-events:none}
+header h1{font-size:clamp(29px,4.2vw,44px);letter-spacing:-.035em;font-weight:800}
+header h1 em{font-style:normal;color:#ffbc78}
+.hero-label{font-size:11px;letter-spacing:.13em;font-weight:800;color:#b9d7e8;margin-top:18px}
+.hero-label span{color:var(--orange);padding:0 6px}
+.hero-separator{padding:0 9px;color:#ffbc78}
+.wrap{max-width:1020px;margin-top:30px}
+.card{border-radius:18px;box-shadow:0 12px 30px #0d34570b;padding:29px}
+h2{letter-spacing:-.025em}
+button{transition:background .15s,transform .15s}
+button:hover{transform:translateY(-1px)}
+input,select,textarea{border:1px solid #c5d3e0;transition:border .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--blue2);box-shadow:0 0 0 3px #176d9e22}
+.scenario{margin:24px 0 22px;border:1px solid #c9dfed;background:linear-gradient(155deg,#f0f8fd,#fff 70%);border-radius:17px;padding:25px}
+.scenario-heading{display:flex;gap:13px;align-items:center;margin-bottom:15px}
+.scenario-icon{display:grid;place-items:center;font-size:27px;background:#fff;border:1px solid #d6e6ef;border-radius:14px;width:54px;height:54px}
+.eyebrow{font-size:10px;letter-spacing:.11em;color:#26709a;font-weight:850}
+.scenario h3{font-size:21px;margin:4px 0}
+.scenario p{line-height:1.75;margin:12px 0}
+.scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:21px 0}
+.scenario-item{display:flex;flex-direction:column;gap:5px;padding:15px;border:1px solid #d9e8f0;background:white;border-radius:11px}
+.scenario-item strong{color:#164d70}
+.scenario-item span{font-size:13px;color:#5b6e80;line-height:1.55}
+.scenario-example{background:#fff8ed;border-left:4px solid var(--orange);padding:15px 18px;border-radius:9px;line-height:1.7}
+.scenario-bottom{margin-bottom:0!important}
+.indicator-card{padding:0;overflow:hidden}
+.indicator-header{display:flex;gap:16px;align-items:center;padding:24px 27px;border-bottom:1px solid var(--border);background:#f8fbfe}
+.indicator-header h2{font-size:19px;margin:4px 0 0;line-height:1.35}
+.indicator-number{display:grid;place-items:center;flex-shrink:0;background:#103b64;color:white;font-weight:800;width:53px;height:53px;border-radius:13px;font-size:18px}
+.indicator-card .question{margin:20px 26px;padding:23px;border-radius:13px;background:#fff}
+.question .kicker{color:#176d9e;font-size:11px}
+.question h3{font-size:17px;line-height:1.6;margin:14px 0 17px}
+.question-help{font-size:13px;color:#6b7b8a;margin:8px 0}
+.option{border:1px solid #e1e8ee;border-radius:10px;padding:14px 15px;margin:9px 0;line-height:1.5;transition:background .2s,border .2s}
+.option:hover{background:#f4f9fc;border-color:#a4c8e0}
+.option:has(input:checked){background:#eaf5fd;border-color:#3586b8}
+.option input{accent-color:#176d9e;margin-top:5px}
+.practical{background:#f9fbfd!important}
+.task-description{white-space:pre-line;line-height:1.85;margin:17px 0;padding:17px 19px;background:white;border:1px solid #e0e9f0;border-radius:10px}
+.practical textarea{min-height:235px;line-height:1.6;padding:15px;tab-size:2}
+@media(max-width:700px){.scenario-grid{grid-template-columns:1fr}.scenario{padding:17px}.indicator-header{padding:18px}.indicator-card .question{margin:13px;padding:16px}.card{padding:19px}}
+@media print{header{display:block!important;background:white!important;color:#103b64!important;border-bottom:2px solid #ed8d34;padding:8px 0}header small,header p,.hero-label{color:#455!important}.indicator-card .question{break-inside:avoid}.scenario{break-inside:avoid}}
+</style>
+<style id="modernTheme">
+:root{color-scheme:dark;--blue:#304e91;--blue2:#567ff1;--orange:#f7ac64;--bg:#0a1020;--muted:#9eabc2;--border:#2a3650;--green:#38b995;--surface:#141d30;--surface2:#1b2840;--ink:#eaf0fa;--soft:#b6c5dd;--field:#101a2d;--notice:#182b46;--shadow:0 16px 50px #0005}
+body[data-theme=light]{color-scheme:light;--blue:#163e75;--blue2:#225da8;--orange:#d9762c;--bg:#f2f5fa;--muted:#5c6e84;--border:#d9e1ed;--green:#187c62;--surface:#fff;--surface2:#f4f7fc;--ink:#182b43;--soft:#435870;--field:#fff;--notice:#eaf3fc;--shadow:0 12px 35px #122c480e}
+body,body[data-theme=light]{background:var(--bg)!important;color:var(--ink)!important;transition:background .2s,color .2s}
+header{background:linear-gradient(115deg,#101a30,#1c3159 75%)!important;border-bottom:1px solid #34496d!important;position:relative}
+header h1{color:#f5f8ff}header p{color:#d5e1f2}header small{color:#a9c2e6}
+header .hero-label{color:#b7c8e5}header h1 em{color:#ffbc80}
+.theme-toggle{position:absolute;right:max(20px,calc((100vw - 1080px)/2));top:22px;background:#ffffff18!important;border:1px solid #ffffff3b;color:#fff!important;font-size:13px;padding:10px 15px;z-index:2}
+.card,.indicator-card{background:var(--surface)!important;border-color:var(--border)!important;color:var(--ink);box-shadow:var(--shadow)}
+h2,h3,strong{color:inherit}.muted,.mini{color:var(--muted)!important}
+label{color:var(--ink)}input,select,textarea{background:var(--field)!important;color:var(--ink)!important;border-color:var(--border)!important}input::placeholder,textarea::placeholder{color:var(--muted)}
+input:focus,select:focus,textarea:focus{outline:2px solid #7399ed!important;outline-offset:1px}
+button{background:var(--blue2);color:white}button.secondary{background:var(--surface2)!important;color:var(--ink)!important;border:1px solid var(--border)}button.danger{background:#a84150}
+.notice{background:var(--notice);border-left-color:#6798ff;color:var(--ink)}.notice.warning{background:var(--surface2);border-left-color:var(--orange)}
+.chip{background:var(--surface2);color:var(--soft);border:1px solid var(--border)}.pill{background:#123d35;color:#8de1c2}.progress{background:var(--surface2)}
+.scenario{background:linear-gradient(135deg,var(--surface2),var(--surface))!important;border-color:var(--border)!important}
+.scenario-icon,.scenario-item,.scenario-example,.task-description{background:var(--surface)!important;border-color:var(--border)!important;color:var(--ink)!important}
+.scenario-item strong,.eyebrow,.question .kicker{color:#8cb7ff!important}.scenario-item span,.question-help{color:var(--muted)!important}
+.scenario-example{border-left:4px solid var(--orange)!important}
+.indicator-header{background:var(--surface2)!important;border-color:var(--border)!important}
+.indicator-number{background:#2a4d89}.indicator-card .question{background:var(--surface)!important;border-color:var(--border)!important}
+.indicator-card .question.practical{background:var(--surface2)!important}
+.option{border-color:var(--border)!important;background:var(--surface2)!important;color:var(--ink)}.option:hover,.option:has(input:checked){background:#264069!important;border-color:#628cf2!important}.option input{accent-color:#7da5ff}
+body[data-theme=light] .option:hover,body[data-theme=light] .option:has(input:checked){background:#e8f2ff!important}
+th{background:var(--surface2)!important;color:var(--ink)}td,th{border-color:var(--border)!important}
+.exam-toolbar{position:sticky;top:10px;z-index:20;background:color-mix(in srgb,var(--surface) 95%,transparent);border:1px solid var(--border);border-radius:17px;padding:16px 19px 12px;margin-bottom:20px;box-shadow:0 16px 40px #0004;backdrop-filter:blur(16px)}
+.toolbar-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px}.toolbar-top>div{display:flex;gap:12px;align-items:baseline}.toolbar-eyebrow{font-size:11px;letter-spacing:.12em;color:var(--muted);font-weight:800}.toolbar-top strong{font-size:23px;color:var(--ink)}.toolbar-status{font-size:12px;color:var(--green)}
+.toolbar-track{height:9px;background:var(--surface2);border-radius:99px;overflow:hidden}.toolbar-track>div{height:100%;width:0;background:linear-gradient(90deg,#5b84f7,#58c5ae);border-radius:99px;transition:width .2s}
+.toolbar-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.toolbar-actions button{font-size:13px;padding:10px 14px}.toolbar-actions .primary-pdf{background:#d97940;color:white}.toolbar-message{margin:7px 0 0;font-size:12px;color:var(--muted);min-height:1em}
+@media(max-width:700px){.theme-toggle{right:15px;top:12px;font-size:11px;padding:8px 10px}header{padding-top:54px!important}.exam-toolbar{top:0;border-radius:0;margin-left:-18px;margin-right:-18px}.toolbar-top{align-items:flex-start}.toolbar-status{font-size:10px}.toolbar-actions{display:grid;grid-template-columns:1fr 1fr}.toolbar-actions button{font-size:12px;padding:11px 7px}}
+@media print{body{background:#fff!important;color:#111!important}.exam-toolbar,.theme-toggle{display:none!important}.card,.scenario,.indicator-card,.indicator-card .question{background:#fff!important;color:#111!important;box-shadow:none!important}.scenario-item,.scenario-example,.task-description{background:#fff!important;color:#111!important}.indicator-header{background:#fff!important}.option{background:#fff!important;color:#111!important}header{background:#fff!important}header h1,header p,header small{color:#111!important}}
+</style><style>.hint-panel{border:1px solid var(--border);border-radius:12px;margin:17px 0;background:var(--surface2,#f4f7fb);overflow:hidden}.hint-panel summary{cursor:pointer;padding:14px 16px;font-weight:700;color:var(--blue2);list-style-position:inside}.hint-panel[open] summary{border-bottom:1px solid var(--border)}.hint-text{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.75 Consolas,monospace;padding:14px 17px;margin:0;color:var(--text,#23344a);background:transparent}.task-description{line-height:1.8;padding:15px 17px;border:1px solid var(--border);border-radius:10px;margin:14px 0}.practical textarea{min-height:250px}</style><style id="hintContrastFix">
+.hint-panel .hint-text{color:#e7edf9!important;background:#101a2d!important;font:14px/1.8 Consolas,"Cascadia Code",monospace!important;white-space:pre-wrap;overflow-wrap:anywhere;opacity:1!important;letter-spacing:0!important;padding:18px 20px}
+.hint-panel .hint-text .sql-keyword{color:#82b6ff!important;font-weight:700}
+.hint-panel .hint-text .sql-type{color:#f5c879!important;font-weight:600}
+.hint-panel .hint-text .sql-comment{color:#a6b7cc!important;font-style:italic}
+.hint-panel .hint-text .sql-string{color:#a8e6a1!important}
+.hint-panel .hint-text .sql-number{color:#e9b6ff!important}
+.hint-panel .hint-text .hint-heading{color:#f8d18a!important;font-weight:700}
+.hint-panel summary{color:#92b7ff!important}
+body[data-theme="light"] .hint-panel .hint-text{background:#edf3fc!important;color:#172b45!important}
+body[data-theme="light"] .hint-panel .hint-text .sql-keyword{color:#174fa4!important}
+body[data-theme="light"] .hint-panel .hint-text .sql-type{color:#93520a!important}
+body[data-theme="light"] .hint-panel .hint-text .sql-comment{color:#52647b!important}
+body[data-theme="light"] .hint-panel .hint-text .sql-string{color:#176a39!important}
+body[data-theme="light"] .hint-panel .hint-text .sql-number{color:#7c349e!important}
+body[data-theme="light"] .hint-panel .hint-text .hint-heading{color:#86520c!important}
+body[data-theme="light"] .hint-panel summary{color:#225da8!important}
+</style><style id="bottomCompactToolbar">
+/* Barra discreta fixa no rodapé, sem cobrir as questões. */
+#exam{padding-bottom:calc(var(--exam-toolbar-height, 105px) + 20px)}
+#exam .exam-toolbar{position:fixed!important;top:auto!important;bottom:0!important;left:0!important;right:0!important;z-index:50!important;margin:0!important;padding:9px max(16px,calc((100vw - 1080px)/2)) 10px!important;border-radius:0!important;border:0!important;border-top:1px solid var(--border)!important;background:color-mix(in srgb,var(--surface) 97%,transparent)!important;box-shadow:0 -5px 20px #0003!important;display:grid;grid-template-columns:minmax(150px,1fr) auto;grid-template-areas:"top actions" "track actions";column-gap:16px;row-gap:4px;align-items:center;backdrop-filter:blur(14px)}
+#exam .toolbar-top{grid-area:top;margin:0!important;gap:8px;min-width:0}
+#exam .toolbar-top>div{gap:8px;align-items:center}
+#exam .toolbar-eyebrow{font-size:10px;letter-spacing:.06em}
+#exam .toolbar-top strong{font-size:15px}
+#exam .toolbar-status{font-size:10px;white-space:nowrap}
+#exam .toolbar-track{grid-area:track;height:5px;margin:0}
+#exam .toolbar-actions{grid-area:actions;display:flex!important;grid-template-columns:none!important;flex-wrap:nowrap;gap:6px;margin:0!important}
+#exam .toolbar-actions button{font-size:11px!important;padding:8px 10px!important;white-space:nowrap;border-radius:7px}
+#exam .toolbar-message{position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:5px 12px;margin:0;min-height:0;max-width:90vw;text-align:center;box-shadow:0 4px 12px #0003}
+#exam .toolbar-message:empty{display:none}
+#exam .progress,#exam #progressText{display:none}
+@media(max-width:760px){
+ #exam{padding-bottom:calc(var(--exam-toolbar-height, 115px) + 20px)}
+ #exam .exam-toolbar{grid-template-columns:minmax(0,1fr);grid-template-areas:"top" "track" "actions";row-gap:5px;padding:7px 12px calc(8px + env(safe-area-inset-bottom,0px))!important}
+ #exam .toolbar-top{justify-content:space-between}
+ #exam .toolbar-status{font-size:9px}
+ #exam .toolbar-actions{width:100%;justify-content:space-between;gap:4px}
+ #exam .toolbar-actions button{flex:1;min-width:0;font-size:10px!important;padding:7px 3px!important}
+}
+@media(max-width:380px){#exam .toolbar-eyebrow{font-size:9px}#exam .toolbar-actions button{font-size:9px!important}}
+@media print{#exam{padding-bottom:0}#exam .exam-toolbar{display:none!important}}
+@media(max-width:760px){body.exam-keyboard-open #exam .exam-toolbar{position:static!important;box-shadow:none!important;border-radius:12px!important}body.exam-keyboard-open #exam{padding-bottom:20px!important}}
+</style></head><body data-theme="dark"><header><button type="button" id="themeToggle" class="theme-toggle hideprint" aria-label="Alternar tema">☀️ Tema claro</button><small>Senac-DF · Técnico em Desenvolvimento de Sistemas · Turma 2026.36.8</small><div class="hero-label">AVALIAÇÃO POR COMPETÊNCIAS <span>•</span> 13 DE OUTUBRO DE 2026</div><h1>Recuperação Final <em>UC6</em></h1><p>Criar e Manter Banco de Dados <span class="hero-separator">/</span> Situação profissional: Biblioteca do Bairro</p></header><main class="wrap"><section id="start" class="card"><h2>Identificação do estudante</h2><p class="muted">Selecione seu nome e confirme o e-mail utilizado no Google Classroom. Apenas estudantes com indicadores pendentes aparecem aqui.</p><label for="student">Estudante</label><select id="student"><option value="">Selecione seu nome</option></select><div id="emailArea"><label for="email">E-mail do Classroom</label><input id="email" type="email" placeholder="Digite seu e-mail completo" autocomplete="email"></div><div class="notice">As respostas são armazenadas <b>neste navegador e dispositivo</b>. Não são enviadas ao instrutor automaticamente. Ao terminar, gere e entregue o relatório.</div><div class="actions"><button id="enter">Acessar recuperação</button><button class="secondary" id="adminOpen">Área do instrutor</button></div><p id="loginError" role="alert" class="muted"></p></section><section id="exam" class="hidden"><div class="exam-toolbar hideprint" aria-label="Progresso e ferramentas da recuperação"><div class="toolbar-top"><div><span class="toolbar-eyebrow">RESPOSTAS PREENCHIDAS</span><strong id="progressPercent">0%</strong></div><span id="toolbarSaveStatus" class="toolbar-status">● Salvo neste dispositivo · ainda não entregue</span></div><div class="toolbar-track" role="progressbar" aria-label="Respostas preenchidas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="toolbarProgress"><div id="toolbarBar"></div></div><div class="toolbar-actions"><button type="button" id="saveNow">💾 Salvar</button><button type="button" id="backupNow" class="secondary">⬇ Backup JSON</button><button type="button" id="clearMine" class="secondary">🗑 Limpar respostas</button><button type="button" id="pdfNow" class="primary-pdf">▣ Gerar PDF</button></div><p id="toolbarMessage" class="toolbar-message" role="status"></p></div><div class="card"><div class="actions hideprint" style="justify-content:space-between;margin:0 0 12px"><button class="secondary" id="back">Trocar estudante</button><span class="pill" id="saveStatus">Salvo neste dispositivo · ainda não entregue</span></div><h2 id="studentTitle"></h2><p class="muted" id="studentMeta"></p><div id="chips"></div><div class="scenario">
+<div class="scenario-heading"><span class="scenario-icon">📚</span><div><span class="eyebrow">SITUAÇÃO PROFISSIONAL</span><h3>Biblioteca do Bairro — livros e empréstimos</h3></div></div>
+<p>A <strong>Biblioteca do Bairro</strong> é um pequeno espaço comunitário onde os moradores podem pegar livros emprestados gratuitamente.</p>
+<p>Clara, responsável pela biblioteca, ainda utiliza um caderno para anotar os livros disponíveis, os leitores cadastrados e os empréstimos realizados. Com o aumento do movimento, ficou mais difícil organizar essas informações e descobrir quem está com cada livro.</p>
+<p>Para resolver esse problema, Clara precisa de um sistema simples que armazene as seguintes informações:</p>
+<div class="scenario-grid"><div class="scenario-item"><strong>👤 Leitores</strong><span>Identificador (id), nome e telefone.</span></div><div class="scenario-item"><strong>📚 Livros</strong><span>Identificador (id), título, autor e ano de publicação.</span></div><div class="scenario-item"><strong>🗓️ Empréstimos</strong><span>Identificador (id), leitor que pegou o livro, livro emprestado e data do empréstimo.</span></div></div>
+<div class="scenario-example"><strong>Exemplo prático:</strong> Júlia está cadastrada na biblioteca e deseja pegar o livro <strong>O Pequeno Príncipe</strong>. Ao registrar esse empréstimo, o sistema deverá permitir que Clara descubra quem pegou o livro, qual livro foi emprestado e em que data o empréstimo aconteceu.</div>
+<p><strong>Seu papel:</strong> você é um(a) desenvolvedor(a) iniciante e foi convidado(a) a ajudar Clara a organizar essas informações em um banco de dados.</p>
+<p>Durante a avaliação, você deverá escolher soluções adequadas, criar e relacionar tabelas e realizar operações básicas de SQL, conforme as questões apresentadas.</p>
+<p class="scenario-bottom"><strong>Importante:</strong> leia cada questão com atenção. Você pode consultar as dicas disponíveis para lembrar os conceitos e a estrutura dos comandos, mas deverá construir suas próprias respostas.</p>
+</div><div class="progress"><div id="bar"></div></div><p id="progressText" class="mini muted"></p></div><div id="questions"></div><section class="card"><h2>Conclusão e relatório</h2><p>Revise suas respostas antes de finalizar. Ao gerar o relatório, escolha “Salvar como PDF” na janela de impressão. Confira se o arquivo foi salvo e entregue-o ao instrutor. O backup JSON é apenas uma cópia de segurança.</p><div class="actions hideprint"><button id="finish">Finalizar e gerar relatório / PDF</button><button class="secondary" id="exportMine">Backup das respostas (JSON)</button><button type="button" class="secondary" id="restoreMine">↥ Recuperar backup JSON</button><input type="file" id="restoreMineFile" accept=".json,application/json" class="hidden" aria-label="Selecionar arquivo JSON de backup das respostas"></div><p class="mini muted">Já tem um backup? Use “Recuperar backup JSON” para continuar suas respostas neste dispositivo. O arquivo deve ser do estudante selecionado.</p><p id="restoreMineMessage" role="status" aria-live="polite"></p><p id="finishMessage" role="status"></p></section></section><section id="adminLogin" class="card hidden"><h2>Acesso do instrutor</h2><p class="muted">Informe seu e-mail e senha para abrir a área administrativa.</p><form id="adminLoginForm" autocomplete="off"><label for="adminEmail">E-mail</label><input id="adminEmail" type="email" autocomplete="username" required placeholder="Seu e-mail"><label for="adminPassword">Senha</label><input id="adminPassword" type="password" autocomplete="current-password" required placeholder="Sua senha"><div class="actions"><button type="submit">Entrar na área do instrutor</button><button type="button" class="secondary" id="adminLoginBack">Voltar</button></div><p id="adminLoginError" role="alert" class="muted"></p></form></section><section id="admin" class="card hidden"><div class="actions hideprint" style="justify-content:space-between;margin-top:0"><h2>Área do instrutor</h2><button class="secondary" id="adminClose">Voltar</button></div><p>Atualize as menções. A = Atendido (dispensado daquele indicador); PA/NA = recuperação; — = situação não definida (não habilitado).</p><div class="admin-table"><table><thead><tr><th>Estudante</th><th>I1</th><th>I2</th><th>I3</th><th>I4</th><th>Situação</th></tr></thead><tbody id="adminRows"></tbody></table></div><div class="actions"><button id="saveAdmin">Salvar menções neste navegador</button><button class="secondary" id="exportAdmin">Exportar configuração JSON</button><button class="secondary" id="exportAll">Backup completo (JSON)</button><button class="secondary" id="importBtn">Importar backup JSON</button><button class="danger" id="clearBtn">Limpar respostas deste navegador</button><input type="file" id="importFile" accept="application/json,.json" class="hidden"></div><p id="adminMsg" role="status"></p></section></main><footer>UC6 · Recuperação Final · Dados salvos localmente no navegador · Senac-DF</footer><script>
+// Reserva espaço exato para a barra fixa, inclusive em zoom e telas pequenas.
+(function(){
+ const toolbar=document.querySelector('#exam .exam-toolbar');
+ if(!toolbar)return;
+ const sync=()=>document.documentElement.style.setProperty('--exam-toolbar-height',Math.ceil(toolbar.getBoundingClientRect().height)+'px');
+ if(typeof ResizeObserver!=='undefined')new ResizeObserver(sync).observe(toolbar);
+ window.addEventListener('resize',sync,{passive:true});
+ document.addEventListener('focusin',e=>{if(e.target.matches('#exam textarea,#exam input'))document.body.classList.add('exam-keyboard-open')});
+ document.addEventListener('focusout',e=>{if(e.target.matches('#exam textarea,#exam input'))document.body.classList.remove('exam-keyboard-open')});
+ sync();
+})();
+const BASE_STUDENTS=[{"name": "Arthur Araújo de Melo Trindade", "registration": "2026.36.506", "emails": ["arthuramt11@gmail.com"], "statuses": ["NA", "NA", "PA", "PA"]}, {"name": "Arthur Christianes Catibe Fernandes", "registration": "2026.36.437", "emails": ["arthurr2332@gmail.com"], "statuses": ["A", "PA", "PA", "PA"]}, {"name": "Arthur Rodrigues da Silva", "registration": "2026.36.122", "emails": ["arthurtwt4k@gmail.com"], "statuses": ["PA", "PA", "PA", "PA"]}, {"name": "Daniel Rodrigues de Souza", "registration": "2026.36.118", "emails": ["danielrodriguesdesouza426@gmail.com"], "statuses": ["PA", "PA", "PA", "PA"]}, {"name": "Davi Miguel Soares Tavera", "registration": "2026.36.123", "emails": ["davimigueltavera453@gmail.com"], "statuses": ["A", "A", "A", "A"]}, {"name": "Davi Pereira Valverde Filho", "registration": "2026.36.438", "emails": ["davipereiravalverdefilho@gmail.com"], "statuses": ["A", "PA", "PA", "A"]}, {"name": "Davy Souza de Alecrim", "registration": "2026.36.268", "emails": ["davysouza136@gmail.com", "davyalecrim714@gmail.com"], "statuses": ["A", "A", "PA", "A"]}, {"name": "Felipe de Melo Fernandes", "registration": "2026.36.507", "emails": ["felipedemelofernandesfdf@gmail.com"], "statuses": ["A", "PA", "A", "A"]}, {"name": "Geovane Borba Abreu", "registration": "2026.36.300", "emails": ["abreuzinx@gmail.com"], "statuses": ["A", "PA", "PA", "PA"]}, {"name": "Lara Soares Quirino da Rocha", "registration": "2026.36.128", "emails": ["soaresquirino.x9@gmail.com"], "statuses": ["A", "A", "A", "A"]}, {"name": "Maria Clara da Silva Santos", "registration": "2026.36.271", "emails": [], "statuses": ["-", "-", "-", "-"]}, {"name": "Maria Eduarda Ribeiro de Moraes", "registration": "2026.36.130", "emails": ["me9007039@gmail.com"], "statuses": ["PA", "PA", "PA", "NA"]}, {"name": "Nathália Rodrigues Batista", "registration": "2026.36.119", "emails": ["nathynathyy40@gmail.com"], "statuses": ["A", "A", "A", "PA"]}, {"name": "Pietro Barcelos Dias", "registration": "2026.36.276", "emails": ["barcelospietro252@gmail.com"], "statuses": ["A", "A", "NA", "NA"]}, {"name": "Samuel Kalebe Guimarães de Souza", "registration": "2026.36.439", "emails": ["kalebesamuel444@gmail.com"], "statuses": ["A", "A", "A", "A"]}, {"name": "Thaynna Lorrany Souza K Teles", "registration": "2026.36.460", "emails": ["irohaillitgllit@gmail.com"], "statuses": ["NA", "NA", "PA", "NA"]}, {"name": "Vinícius Marques Galindo", "registration": "2026.36.120", "emails": ["viniciusmgalindo991@gmail.com"], "statuses": ["A", "PA", "PA", "PA"]}, {"name": "Vitória Rodrigues de Souza", "registration": "2026.36.121", "emails": ["vickysstrodriguess@gmail.com"], "statuses": ["NA", "NA", "NA", "NA"]}, {"name": "William Almeida de Jesus", "registration": "2026.36.263", "emails": ["garotoerd5@gmail.com"], "statuses": ["PA", "PA", "PA", "PA"]}];
+const KEY='uc6_recuperacao_2026_36_8_biblioteca_v1';
+const IND=[{id:'I1',name:'Seleciona o tipo de banco de dados conforme as necessidades apresentadas.'},{id:'I2',name:'Seleciona o Sistema Gerenciador de Banco de Dados (SGBD) de acordo com os requisitos.'},{id:'I3',name:'Cria banco de dados conforme especificações e requisitos apresentados.'},{id:'I4',name:'Executa procedimentos de edição e manutenção de banco de dados conforme requisitos apresentados.'}];
+const BANK={
+I1:{objective:{text:'A biblioteca precisa organizar leitores, livros e empréstimos. Qual opção facilita relacionar essas informações?',options:['Tabelas que podem ser relacionadas.','Textos sem organização.','Arquivos separados sem ligação.','Apenas uma lista de nomes.']},practical:'Responda com suas palavras:\n1. Qual tipo de banco você escolheria: relacional ou não relacional?\n2. Apresente dois motivos para sua escolha.\n3. Explique uma diferença entre esses dois tipos.',hint:'💡 DICA\nPense em como os dados dos leitores, livros e empréstimos precisam ficar organizados e ligados. Lembre-se das diferenças entre tabelas relacionadas e outros formatos, como documentos.'},
+I2:{objective:{text:'Qual é a principal função de um SGBD no sistema da biblioteca?',options:['Criar, consultar e gerenciar os dados.','Escolher as cores do sistema.','Substituir os livros físicos.','Criar apenas imagens.']},practical:'Clara precisa escolher um SGBD para a biblioteca.\n1. Indique um SGBD que você estudou.\n2. Cite dois recursos que ele oferece.\n3. Explique como esses recursos ajudariam a biblioteca.',hint:'💡 DICA\nLembre-se dos SGBDs estudados em aula e de recursos como consultas SQL, relacionamentos entre tabelas e controle de acesso. Escolha dois recursos e explique sua utilidade.'},
+I3:{objective:{text:'Para registrar um empréstimo, o sistema precisa identificar:',options:['O leitor, o livro e a data do empréstimo.','Apenas o título do livro.','Somente o nome do leitor.','Apenas a quantidade de livros.']},practical:'Utilizando MySQL, desenvolva um pequeno banco de dados para a biblioteca.\n1. Crie o banco e as tabelas Leitores, Livros e Emprestimos, com os campos necessários.\n2. Defina as chaves primárias (PK) e estrangeiras (FK) para relacionar os empréstimos aos leitores e livros.\n3. Cadastre um exemplo com INSERT: um leitor, um livro e um empréstimo.\n\nNão é necessário usar CHECK.',hint:'💡 DICA DE CÓDIGO — complete e adapte\nCREATE DATABASE nome_do_banco;\nUSE nome_do_banco;\n\nCREATE TABLE nome_da_tabela (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  campo VARCHAR(100)\n);\n\n-- Modelo de FK dentro da definição de uma tabela:\nFOREIGN KEY (campo_id) REFERENCES outra_tabela(id)\n\n-- Modelo de cadastro:\nINSERT INTO nome_da_tabela (campo1) VALUES (valor1);\n\nVARCHAR guarda textos; INT, inteiros; DATE, datas. Crie primeiro as tabelas que não dependem de outras.'},
+I4:{objective:{text:'Clara precisa atualizar apenas um livro cadastrado. Qual comando ajuda a identificar o registro correto?',options:['WHERE com o identificador do livro.','UPDATE sem condição.','DELETE sem condição.','DROP DATABASE.']},practical:'A tabela Livros já possui os campos id, titulo, autor e ano_publicacao. Escreva comandos SQL para estas três tarefas:\n1. Adicionar a coluna genero na tabela Livros.\n2. Cadastrar um novo livro e consultar os livros cadastrados.\n3. Atualizar o ano de publicação de um livro específico, utilizando seu id.',hint:'💡 DICA DE CÓDIGO — complete e adapte\n-- Adicionar uma coluna\nALTER TABLE tabela ADD COLUMN campo tipo;\n\n-- Cadastrar um registro\nINSERT INTO tabela (campo1) VALUES (valor1);\n\n-- Consultar registros\nSELECT * FROM tabela;\n\n-- Atualizar um registro\nUPDATE tabela SET campo = novo_valor WHERE id = numero;\n\nAtenção: WHERE identifica qual registro será atualizado. Sem uma condição adequada, vários registros podem ser alterados.'}
+};
+const $=id=>document.getElementById(id);const clone=o=>JSON.parse(JSON.stringify(o));
+function load(){try{let v=JSON.parse(localStorage.getItem(KEY));if(v&&Array.isArray(v.students)&&v.answers&&typeof v.answers==='object')return v}catch(e){}return {students:clone(BASE_STUDENTS),answers:{}}}
+let db=load(),current=null;
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(db));$('saveStatus').textContent='Salvo neste dispositivo · ainda não entregue'}catch(e){alert('Não foi possível salvar. Verifique o espaço ou as permissões do navegador.')}}
+function eligible(s){return s.statuses.every(x=>['A','PA','NA'].includes(x))&&s.statuses.some(x=>x==='PA'||x==='NA')}
+function pending(s){return IND.filter((x,i)=>['PA','NA'].includes(s.statuses[i]))}
+function populate(){let list=db.students.filter(eligible).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));$('student').innerHTML='<option value="">Selecione seu nome</option>'+list.map(s=>'<option value="'+s.registration+'">'+esc(s.name)+'</option>').join('');$('emailArea').classList.remove('hidden')}
+function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function show(id){['start','exam','adminLogin','admin'].forEach(x=>$(x).classList.toggle('hidden',x!==id));window.scrollTo(0,0)}
+$('student').onchange=()=>{let s=db.students.find(x=>x.registration===$('student').value);$('emailArea').classList.toggle('hidden',!!s&&!s.emails.length);$('email').value='';$('loginError').textContent=''};
+$('enter').onclick=()=>{let s=db.students.find(x=>x.registration===$('student').value);if(!s||!eligible(s)){$('loginError').textContent='Selecione um estudante habilitado.';return}if(s.emails.length&&!s.emails.some(x=>x.toLowerCase()===$('email').value.trim().toLowerCase())){$('loginError').textContent='E-mail não corresponde ao cadastro do Classroom. Confira e tente novamente.';return}current=s.registration;renderExam();show('exam')};
+$('back').onclick=()=>{current=null;populate();show('start')};
+function answerKey(ind,type){return current+'|'+ind+'|'+type}
+function highlightHint(raw){
+ const sql=/\b(?:CREATE|DATABASE|USE|TABLE|INT|VARCHAR|DATE|AUTO_INCREMENT|PRIMARY|KEY|FOREIGN|REFERENCES|INSERT|INTO|VALUES|ALTER|ADD|COLUMN|SELECT|FROM|WHERE|UPDATE|SET|DELETE|DROP|DECIMAL|NOT|NULL)\b/gi;
+ const keywords=new Set(['CREATE','DATABASE','USE','TABLE','PRIMARY','KEY','FOREIGN','REFERENCES','INSERT','INTO','VALUES','ALTER','ADD','COLUMN','SELECT','FROM','WHERE','UPDATE','SET','DELETE','DROP','NOT','NULL']);
+ return raw.split('\n').map(line=>{
+   if(/^\s*--/.test(line))return '<span class="sql-comment">'+esc(line)+'</span>';
+   if(/^\s*💡/.test(line))return '<span class="hint-heading">'+esc(line)+'</span>';
+   if(!/^\s*(CREATE|USE|FOREIGN|INSERT|ALTER|SELECT|UPDATE|DELETE|id\s|campo\s|\);|VARCHAR\b)/i.test(line))return esc(line);
+   let out='',last=0;
+   const tokens=/--.*$|'(?:''|[^'])*'|\b(?:CREATE|DATABASE|USE|TABLE|INT|VARCHAR|DATE|AUTO_INCREMENT|PRIMARY|KEY|FOREIGN|REFERENCES|INSERT|INTO|VALUES|ALTER|ADD|COLUMN|SELECT|FROM|WHERE|UPDATE|SET|DELETE|DROP|DECIMAL|NOT|NULL)\b|\b\d+\b/gim;
+   for(const m of line.matchAll(tokens)){
+     out+=esc(line.slice(last,m.index));let t=m[0],up=t.toUpperCase();
+     let cls=t.startsWith('--')?'sql-comment':t.startsWith("'")?'sql-string':/^\d+$/.test(t)?'sql-number':keywords.has(up)?'sql-keyword':'sql-type';
+     out+='<span class="'+cls+'">'+esc(t)+'</span>';last=m.index+t.length;
+   }
+   return out+esc(line.slice(last));
+ }).join('\n');
+}
+function renderExam(){let s=db.students.find(x=>x.registration===current);if(!s||!eligible(s)){show('start');return}$('studentTitle').textContent=s.name;$('studentMeta').textContent='Matrícula: '+s.registration+' · Turma 2026.36.8';$('chips').innerHTML=pending(s).map(x=>'<span class="chip">'+x.id+' · '+esc(s.statuses[IND.indexOf(x)])+'</span>').join('');$('questions').innerHTML=pending(s).map(ind=>{let b=BANK[ind.id],a=db.answers[answerKey(ind.id,'objective')]??'',p=db.answers[answerKey(ind.id,'practical')]??'';return '<section class="card indicator-card"><div class="indicator-header"><span class="indicator-number">'+ind.id+'</span><div><span class="eyebrow">INDICADOR EM RECUPERAÇÃO</span><h2>'+esc(ind.name)+'</h2></div></div><div class="question"><span class="kicker">01 · QUESTÃO OBJETIVA</span><p class="question-help">Leia a situação e selecione apenas uma alternativa.</p><h3>'+esc(b.objective.text)+'</h3>'+b.objective.options.map((o,i)=>'<label class="option"><input type="radio" name="obj_'+ind.id+'" value="'+i+'" '+(String(a)===String(i)?'checked':'')+'><span>'+esc(o)+'</span></label>').join('')+'</div><div class="question practical"><span class="kicker">02 · DESAFIO PRÁTICO</span><p class="question-help">Resolva com calma, uma etapa de cada vez.</p><div class="task-description">'+esc(b.practical)+'</div><details class="hint-panel"><summary>💡 Ver dica de estudo e modelo de código</summary><pre class="hint-text">'+highlightHint(b.hint)+'</pre></details><label for="pr_'+ind.id+'">Sua resposta / código SQL</label><textarea id="pr_'+ind.id+'" placeholder="Escreva sua solução aqui...">'+esc(p)+'</textarea></div></section>'}).join('');pending(s).forEach(ind=>{document.querySelectorAll('input[name="obj_'+ind.id+'"]').forEach(el=>el.onchange=()=>saveAnswer(ind.id,'objective',el.value));$('pr_'+ind.id).oninput=e=>saveAnswer(ind.id,'practical',e.target.value)});updateProgress()}
+function saveAnswer(ind,type,value){db.answers[answerKey(ind,type)]=value;persist();updateProgress()}
+function updateProgress(){let s=db.students.find(x=>x.registration===current),items=pending(s),total=items.length*2,done=items.reduce((n,i)=>n+(db.answers[answerKey(i.id,'objective')]!==undefined?1:0)+(String(db.answers[answerKey(i.id,'practical')]??'').trim()?1:0),0);let percent=total?Math.round(done/total*100):0;$('bar').style.width=percent+'%';$('toolbarBar').style.width=percent+'%';$('toolbarProgress').setAttribute('aria-valuenow',String(percent));$('progressPercent').textContent=percent+'%';$('progressText').textContent=done+' de '+total+' respostas preenchidas · Salvamento automático'}
+function download(obj,name){let blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500)}
+function mine(){let s=db.students.find(x=>x.registration===current),ans={};pending(s).forEach(i=>{ans[i.id]={objective:db.answers[answerKey(i.id,'objective')]??null,practical:db.answers[answerKey(i.id,'practical')]??''}});return {title:'Recuperação Final UC6 — Biblioteca do Bairro',student:s.name,registration:s.registration,pending:pending(s).map(x=>x.id),answers:ans,exportedAt:new Date().toISOString()}}
+$('exportMine').onclick=()=>download(mine(),'UC6_Recuperacao_'+current.replaceAll('.','_')+'.json');
+
+$('restoreMine').onclick=()=>{$('restoreMineMessage').textContent='';$('restoreMineFile').click()};
+$('restoreMineFile').onchange=async e=>{
+ const input=e.target,file=input.files[0];if(!file)return;
+ const message=$('restoreMineMessage');
+ try{
+  if(file.size>1024*1024)throw Error('O arquivo é muito grande para um backup de respostas.');
+  const backup=JSON.parse(await file.text());
+  const student=db.students.find(s=>s.registration===current);
+  if(!student)throw Error('Selecione e acesse um estudante antes de restaurar.');
+  if(!backup||typeof backup!=='object'||Array.isArray(backup)||backup.registration!==current||backup.student!==student.name)throw Error('Este backup não pertence ao estudante selecionado.');
+  if(!backup.answers||typeof backup.answers!=='object'||Array.isArray(backup.answers))throw Error('Arquivo de respostas inválido.');
+  const ids=pending(student).map(x=>x.id);
+  if(!ids.some(id=>Object.prototype.hasOwnProperty.call(backup.answers,id)))throw Error('O arquivo não contém respostas dos indicadores desta recuperação.');
+  const restored={};
+  for(const id of ids){
+   if(!Object.prototype.hasOwnProperty.call(backup.answers,id))continue;
+   const answer=backup.answers[id];
+   if(!answer||typeof answer!=='object'||Array.isArray(answer))throw Error('Respostas inválidas em '+id+'.');
+   if(answer.objective!==null&&answer.objective!==undefined&&(!/^[0-3]$/.test(String(answer.objective))))throw Error('Alternativa inválida em '+id+'.');
+   if(typeof answer.practical!=='string'||answer.practical.length>100000)throw Error('Resposta prática inválida em '+id+'.');
+   if(answer.objective!==null&&answer.objective!==undefined)restored[answerKey(id,'objective')]=String(answer.objective);
+   restored[answerKey(id,'practical')]=answer.practical;
+  }
+  if(!confirm('Recuperar as respostas do backup de '+student.name+'? As respostas atuais deste estudante nos indicadores recuperados serão substituídas.')){message.textContent='Recuperação cancelada. Nenhuma resposta foi alterada.';return;}
+  for(const id of ids){
+   if(!Object.prototype.hasOwnProperty.call(backup.answers,id))continue;
+   delete db.answers[answerKey(id,'objective')];
+   delete db.answers[answerKey(id,'practical')];
+  }
+  Object.assign(db.answers,restored);persist();renderExam();
+  message.textContent='Backup recuperado! Confira suas respostas antes de gerar o PDF.';
+  $('toolbarMessage').textContent='Respostas restauradas neste dispositivo · ainda não entregues.';
+ }catch(err){message.textContent='Não foi possível recuperar o backup: '+err.message;}
+ finally{input.value='';}
+};
+
+$('saveNow').onclick=()=>{persist();$('toolbarMessage').textContent='Salvo neste dispositivo — ainda não entregue.'};
+$('backupNow').onclick=()=>{$('exportMine').click();$('toolbarMessage').textContent='Backup JSON preparado para download.'};
+$('pdfNow').onclick=()=>$('finish').click();
+$('clearMine').onclick=()=>{if(!current)return;let s=db.students.find(x=>x.registration===current);if(!confirm('Limpar TODAS as respostas de '+s.name+' neste navegador? Recomendamos gerar um backup antes.'))return;pending(s).forEach(i=>{delete db.answers[answerKey(i.id,'objective')];delete db.answers[answerKey(i.id,'practical')]});persist();renderExam();$('toolbarMessage').textContent='Respostas deste estudante apagadas.'};
+const THEME_KEY='uc6_recuperacao_theme';function applyTheme(t){document.body.dataset.theme=t;$('themeToggle').textContent=t==='dark'?'☀️ Tema claro':'🌙 Tema escuro';try{localStorage.setItem(THEME_KEY,t)}catch(e){}};let initialTheme='dark';try{initialTheme=localStorage.getItem(THEME_KEY)==='light'?'light':'dark'}catch(e){}applyTheme(initialTheme);$('themeToggle').onclick=()=>applyTheme(document.body.dataset.theme==='dark'?'light':'dark');
+
+$('finish').onclick=()=>{let s=db.students.find(x=>x.registration===current);let incomplete=pending(s).filter(i=>db.answers[answerKey(i.id,'objective')]===undefined||!String(db.answers[answerKey(i.id,'practical')]??'').trim());if(incomplete.length&&!confirm('Existem respostas incompletas em '+incomplete.map(x=>x.id).join(', ')+'. Deseja gerar o relatório mesmo assim?'))return;let report=mine();let w=window.open('','_blank');if(!w){$('finishMessage').textContent='O navegador bloqueou a janela do relatório. Permita pop-ups e tente novamente.';return}let body=Object.entries(report.answers).map(([id,a])=>{let b=BANK[id],selected=a.objective===null?'Não respondida':b.objective.options[Number(a.objective)];return '<h2>'+id+' — '+esc(IND.find(x=>x.id===id).name)+'</h2><h3>Questão objetiva</h3><p>'+esc(b.objective.text)+'</p><p><b>Resposta:</b> '+esc(selected)+'</p><h3>Questão prática</h3><p>'+esc(b.practical)+'</p><pre>'+esc(a.practical||'Não respondida')+'</pre>'}).join('');w.document.write('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Relatório UC6 - '+esc(s.name)+'</title><style>:root{color-scheme:dark}*,*::before,*::after{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;box-sizing:border-box}html{background:#0c1424!important;color:#eef4ff!important}body{font:14px/1.6 Arial,Helvetica,sans-serif;max-width:800px;margin:32px auto;padding:28px 32px;background:#111d31!important;color:#eef4ff!important}h1{color:#f6b66c!important;font-size:25px;line-height:1.3}h2{color:#a9ceff!important;border-top:1px solid #435775;padding-top:20px;margin-top:26px}h3{color:#f6bd80!important}p{line-height:1.6;color:#eef4ff!important}b{color:#fff!important}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#1d2d46!important;color:#f4f7ff!important;border:1px solid #496080;border-left:4px solid #f6a55b;border-radius:8px;padding:14px;font:13px/1.55 Consolas,monospace}h2,pre{break-inside:avoid}@page{size:A4;margin:14mm;background:#0c1424}@media print{html,body{background:#111d31!important;color:#eef4ff!important}body{margin:0;max-width:none;padding:16px 20px}h1,h2,h3,pre,p{print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}}</style></head><body><h1>Recuperação Final UC6 — Biblioteca do Bairro</h1><p><b>Estudante:</b> '+esc(s.name)+'<br><b>Matrícula:</b> '+esc(s.registration)+'<br><b>Turma:</b> 2026.36.8<br><b>Indicadores:</b> '+esc(report.pending.join(', '))+'<br><b>Data de emissão:</b> '+new Date().toLocaleString('pt-BR')+'</p>'+body+'<p><b>Declaração:</b> respostas registradas pelo estudante para avaliação do instrutor. Não há correção automática das questões práticas.</p><script>window.onload=()=>setTimeout(()=>window.print(),250)<\/script></body></html>');w.document.close();$('finishMessage').textContent='Na janela de impressão, escolha “Salvar como PDF” e ative “Gráficos de segundo plano” (ou “Imprimir planos de fundo”) para preservar as cores escuras. Confira o arquivo salvo e entregue-o ao instrutor.'};
+const INSTRUCTOR_EMAIL='ricks.jor@gmail.com';
+const INSTRUCTOR_PASSWORD='SENAC2026';
+let instructorAuthenticated=false;
+$('adminOpen').onclick=()=>{if(instructorAuthenticated){renderAdmin();show('admin')}else{$('adminLoginError').textContent='';$('adminPassword').value='';show('adminLogin')}};
+$('adminLoginBack').onclick=()=>{populate();show('start')};
+$('adminLoginForm').onsubmit=e=>{e.preventDefault();const email=$('adminEmail').value.trim().toLowerCase();const password=$('adminPassword').value;if(email!==INSTRUCTOR_EMAIL||password!==INSTRUCTOR_PASSWORD){$('adminLoginError').textContent='E-mail ou senha incorretos.';$('adminPassword').value='';return}instructorAuthenticated=true;$('adminPassword').value='';$('adminLoginError').textContent='';renderAdmin();show('admin')};
+$('adminClose').onclick=()=>{instructorAuthenticated=false;$('adminEmail').value='';$('adminPassword').value='';populate();show('start')};
+function renderAdmin(){$('adminRows').innerHTML=db.students.map((s,i)=>'<tr><td>'+esc(s.name)+'<br><small>'+esc(s.registration)+'</small></td>'+s.statuses.map((v,j)=>'<td><select data-st="'+i+'" data-ind="'+j+'">'+['A','PA','NA','-'].map(x=>'<option value="'+x+'" '+(x===v?'selected':'')+'>'+ (x==='-'?'—':x)+'</option>').join('')+'</select></td>').join('')+'<td>'+(eligible(s)?'Recuperação':s.statuses.every(x=>x==='A')?'Dispensado':'Não habilitado')+'</td></tr>').join('')}
+$('saveAdmin').onclick=()=>{document.querySelectorAll('#adminRows select').forEach(x=>db.students[+x.dataset.st].statuses[+x.dataset.ind]=x.value);persist();renderAdmin();populate();$('adminMsg').textContent='Menções salvas somente neste navegador.'};
+$('exportAdmin').onclick=()=>download({students:db.students},'UC6_configuracao_estudantes.json');$('exportAll').onclick=()=>download(db,'UC6_backup_completo.json');
+$('importBtn').onclick=()=>$('importFile').click();$('importFile').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let obj=JSON.parse(await f.text());if(!Array.isArray(obj.students)||obj.students.length!==19||!obj.students.every(s=>typeof s.name==='string'&&typeof s.registration==='string'&&Array.isArray(s.emails)&&Array.isArray(s.statuses)&&s.statuses.length===4&&s.statuses.every(x=>['A','PA','NA','-'].includes(x))))throw Error('Formato inválido');if(!confirm('Substituir a configuração atual pelos dados do arquivo?'))return;db.students=obj.students;db.answers=(obj.answers&&typeof obj.answers==='object'&&!Array.isArray(obj.answers))?obj.answers:db.answers;persist();renderAdmin();populate();$('adminMsg').textContent='Backup importado neste navegador.'}catch(e){$('adminMsg').textContent='Falha na importação: '+e.message}e.target.value=''};
+$('clearBtn').onclick=()=>{if(confirm('Apagar TODAS as respostas deste navegador? Esta ação não pode ser desfeita. Faça backup antes.')){db.answers={};persist();$('adminMsg').textContent='Respostas locais apagadas.'}};
+populate();
+</script></body></html>
